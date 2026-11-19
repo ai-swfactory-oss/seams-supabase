@@ -2,7 +2,7 @@
 
 The seam for Supabase: a typed SDK boundary between applications and Supabase, with a fake under `./testing` for tests.
 
-The code arrives by migration from the private monorepo `ai-swfactory/seams`; until then this repository holds the guarded skeleton only.
+This repository holds only the guarded skeleton so far: `createSupabaseSeam()` returns a seam whose `status()` reports it is not ready, and `./testing` holds a fake of it.
 
 ## Packages
 
